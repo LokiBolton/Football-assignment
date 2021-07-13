@@ -1,17 +1,25 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* ------------------
+banner part starts
+------------------ */
 .banner-part{
     display: flex;
     width: 1500px;
-    height: 677px;
+    height: 600px;
     padding-top: 120px;
+    margin-bottom: 70px;
     background-color: #2D25A0;
+}
+.banner-part:hover{
+    background-color: lightcoral;
 }
 h1{
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 68px;
     padding-left: 156px;
+    padding-top: 10px;
 }
 .live-part{
     display: flex;
@@ -22,6 +30,7 @@ h1{
     height: 44px;
     margin-left: 156px;
     border-radius: 5px;
+    margin-top: -30px;
 }
 .live-part a{
     text-decoration: none;
@@ -32,8 +41,53 @@ h1{
     margin-left: 5px;
 }
 .banner-pic img{
-    width: 556px;
-    height: 438px;
+    width: 586px;
+    height: 460px;
     margin-left: 102px;
     padding-right: 141px;
 }
+.banner-pic img:hover{
+    transform: scale(1.3);
+    transition: transform 2s ease-in-out;
+}
+/* ---------------------
+banner part ends
+-------------------- */
+
+
+/* ----------------
+players part begins
+---------------- */
+.players-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width: 1050px;
+    height: 474px;
+    margin-left: 225px;
+    margin-bottom: 165px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 474px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    padding: 15px 15px 30px 15px;
+}
+.player img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: gray;
+}
+/* ---------------------
+players part ends
+--------------------- */
+
+
+
