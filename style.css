@@ -65,7 +65,7 @@ players part begins
     grid-column-gap: 30px;
     width: 1050px;
     height: 1896px;
-    margin-left: 225px;
+    margin-left: 185px;
 }
 .player{
     display: flex;
@@ -100,16 +100,20 @@ highlights part starts
     margin-left: 50px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .highlights-tag{
     display: flex;
     flex-direction: column;
     width: 466px;
-    height: 330px;
+    padding-top: 150px;
 }
 h3{
     font-size: 50px;
+}
+.highlights-tag p{
+    margin-top: -35px;
+    margin-bottom: 25px;
 }
 .watch-part{
     display: flex;
@@ -126,7 +130,7 @@ h3{
     font-weight: 300;
 }
 .match-pic img{
-    width: 567px;
+    width: 550px;
     height: 427px;
     margin-top: 200px;
     margin-left: 80px;
@@ -135,16 +139,100 @@ h3{
 highlights part ends
 ------------------------ */
 
-.sponsors{
+h4{
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    background-color: mediumaquamarine;
+    margin-bottom: -3px;
+    padding: 10px 0;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    margin: 0 500px;
+}
+
+/* fantasy starts */
+.fantasy-part{
     display: flex;
     justify-content: space-around;
-    background-color: #2D25A0;
-    padding: 30px 30px;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 0 50px;
+    height: 500px;
+    border-radius: 5px;
+}
+.fantasy, .predictor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 20px 20px 40px gray;
+}
+.fantasy img, .predictor img{
+    width: 420px;
+    height: 300px;
+    
+}
+.fantasy a, .predictor a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    
+    height: 44px;
+    width: 420px;
+    text-align: center;
+    padding-top: 22px;
+}
+/* fantasy the end */
 
+/* icon part begins */
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.logo img{
+    width: 484px;
+    height: 110px;
+}
+.icons a{
+    color: darkslategrey;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+/* icon part ends */
+
+
+/* sponsors here we go */
+
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 30px;
 }
 .sponsors img{
-    width: 200px;
-    height: 94px;
-    border-radius: 8px;
+    width: 160px;
+    height: 75px;
+    border-radius: 20px;
+    margin: 0 10px;
 }
-
+.all-sponsor{
+    display: flex;
+    justify-content: space-between;   
+}
+.federation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;  
+}
+/* end of sponsors */
