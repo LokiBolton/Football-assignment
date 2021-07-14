@@ -246,6 +246,7 @@ h4{
      /* banner part */
      .banner-part{
          flex-direction: column;
+         width: 450px;
      }
      h1{
          font-size: 50px;
